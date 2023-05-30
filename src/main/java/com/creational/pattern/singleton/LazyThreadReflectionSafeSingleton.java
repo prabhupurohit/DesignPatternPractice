@@ -1,4 +1,4 @@
-package com.pcp.pattern.singleton;
+package com.creational.pattern.singleton;
 
 public class LazyThreadReflectionSafeSingleton {
 
