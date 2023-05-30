@@ -1,7 +1,9 @@
 package com.creational.pattern.factorymethod;
 
-public class ElectricityPlanFactory {
-    public static ElectricityPlan getPlan(String planType) {
+public class ElectricityPlanFactory implements PlanFactory {
+
+    @Override
+    public ElectricityPlan getPlan(String planType) {
         switch (planType) {
             case "domestic": {
                 return new DomesticPlan();
@@ -14,4 +16,5 @@ public class ElectricityPlanFactory {
             }
         }
     }
+
 }
