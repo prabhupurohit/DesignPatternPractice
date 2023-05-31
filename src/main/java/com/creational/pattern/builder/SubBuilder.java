@@ -7,8 +7,12 @@ public class SubBuilder {
 
     private SubwaySub sub;
 
-    public SubBuilder(SubwaySub sub) {
-        this.sub = sub;
+    //    public SubBuilder(SubwaySub sub) {
+    //        this.sub = sub;
+    //    }
+
+    public SubBuilder() {
+        this.sub = new SubwaySub();
     }
 
     public SubBuilder length(int length) {
