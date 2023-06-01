@@ -6,6 +6,7 @@ public class CompanyDirectory {
 
     private List<Employee> heads;
 
+    //This Contains all the heads of each department
     public CompanyDirectory(List<Employee> heads) {
         this.heads = heads;
     }
