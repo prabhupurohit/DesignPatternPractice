@@ -10,11 +10,11 @@ public class StrategyDemo {
 
         System.out.println((mathAddContext.doMathOperation(15, 20)));
 
-        MathOperationContext mathSubContext = new MathOperationContext(new AddOperation());
+        MathOperationContext mathSubContext = new MathOperationContext(new SubstractOperation());
         System.out.println(mathSubContext.doMathOperation(50, 20));
 
-        MathOperationContext mathMulContext = new MathOperationContext(new AddOperation());
+        MathOperationContext mathMulContext = new MathOperationContext(new MultiplyOperation());
         System.out.println(mathMulContext.doMathOperation(30, 10));
-        
+
     }
 }
